@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts_press_media_cards",
+  "info": {
+    "singularName": "contacts-press-media-card",
+    "pluralName": "contacts-press-media-cards",
+    "displayName": "ContactsPressMedia-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "contacts_press_media": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::contacts-press-media.contacts-press-media",
+      "inversedBy": "contacts_press_media_cards"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

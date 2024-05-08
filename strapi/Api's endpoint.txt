@@ -1,0 +1,47 @@
+Home : /api/mains?populate=deep,3
+AboutUs: /api/about-uses?populate=deep
+AboutUsComunity : /api/about-us-comunities?populate=deep
+AbouUsMeetTheTeam : /api/about-us-meet-teams?populate=deep
+AboutUsNews : /api/about-us-news?populate=deep
+NewsArticle : /api/news-articles/news-article-1?populate=*
+YourHome : /api/your-homes?populate=deep,3
+YourHomeAntiSocialBehaviour : /api/your-home-asbs?populate=deep,2
+YourHomeOtherIssues: /api/your-home-other-isses?populate=deep,2
+YourHomeRepairMaintenance : /api/your-home-r-and-ms?populate=deep,3
+YourHomeOutOfHourEmergency : /api/your-home-oohes?populate=deep,3
+YourHomeTenantService : /api/your-home-t-servs?populate=deep,3
+YourHomeTenantFeedback: /api/yh-tenant-feedbacks
+ContactTenant:/api/contact-tenants
+YourHomeTenantServiceTemporaryAccommodation : /api/your-home-tem-accs?populate=deep,3
+YourHomeTenantServicePRS : /api/yh-tenant-services-prs?populate=deep,2
+YourHomeMeetYourTeam : /api/your-home-myts?populate=deep,3
+YourHomeCouncilandUtilities: /api/your-home-ctus?populate=deep,2
+HelpAndAdvice : /api/help-and-advices?populate=deep,4
+HelpAndAdviceNationalHelplines : /api/national-helplines?populate=deep,3
+HousingPartner : /api/housing-partners?populate=deep,3
+HousingPartnerTemporaryAccommodition : /api/temporary-accoms?populate=deep,3
+HousingPartnerPRS : /api/housing-partner-prs?populate=deep,3
+HousingPartnerAccommodationTypes :/api/hp-accommodation-types?populate=deep,3
+HousingPartnerOurProject : /api/ourprojects?populate=deep,3
+HousingPartnerProjectTemplate : /api/project-templates?populate=deep,3 / /api/project-templates/slug
+HousingPartnerWhereWeOperate : /api/whereweoperates?populate=deep,3
+Investors : /api/investors?populate=deep,3
+InvestorsCorporateInvestor : /api/corporate-investors?populate=deep,3
+investorsPrivateInvestors : /api/private-investers?populate=deep,3
+investerLandlord : /api/investors-landlords?populate=deep,3
+Careers : /api/careers?populate=deep,3
+Contact : /api/contacts?populate=deep,2
+ContactFAQs : /api/contact-faqs?populate=deep,3
+ContactPressMedia : /api/contacts-press-medias?populate=deep,2
+ContactComunity : /api/contact-comunities?populate=deep,3
+ContactHousingPartner : /api/c-housing-partners?populate=deep,3
+ContactInvestor : /api/contact-investors?populate=deep,3
+ContactMedia : /api/contact-medias?populate=deep,3
+ContactGenerals : /api/contact-generals?populate=deep,3 
+ContactLettingViolations : /api/c-letting-violations?populate=deep,3
+ContactFormsubmitted : /api/form-submissions?populate=deep,3
+Downloads : /api/downloads?populate=deep,3
+Glossary : /api/glossaries?populate=deep,3
+PrivacyPolicy : /api/privacy-policies?populate=deep
+ourproject1:/api/ourproject-1s?populate=deep,3
+ 

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <g id="Icon_Button" data-name="Icon Button" transform="translate(-510 -1587)">
+    <g id="Icon" transform="translate(510 1587)" fill="#fff" stroke="rgba(34,66,122,0.8)" stroke-width="2">
+      <circle cx="45.5" cy="45.5" r="45.5" stroke="none"/>
+      <circle cx="45.5" cy="45.5" r="44.5" fill="none"/>
+    </g>
+    <g id="S_P_Icons_2023_AS_Lighting" data-name="S&amp;P Icons 2023_AS_Lighting" transform="translate(510.686 1585.731)">
+      <line id="Line_19" data-name="Line 19" x2="11.01" transform="translate(39.309 22.3)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_20" data-name="Line 20" y1="11.016" transform="translate(44.814 22.3)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_101" data-name="Path 101" d="M53.49,44.718l1.121-3.948h6.3l1.121,3.948" transform="translate(-12.947 -7.454)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="11.803" cy="11.803" r="11.803" transform="translate(33.011 36.459)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_102" data-name="Path 102" d="M70.834,72.13a8.692,8.692,0,0,1-4.044,3.954" transform="translate(-18.314 -20.11)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_21" data-name="Line 21" y1="7.264" transform="translate(44.814 63.972)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_22" data-name="Line 22" y1="5.141" x2="5.135" transform="translate(27.523 60.072)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_23" data-name="Line 23" x1="5.141" y1="5.141" transform="translate(57.076 60.072)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_24" data-name="Line 24" x1="7.264" transform="translate(21.41 48.597)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_25" data-name="Line 25" x1="7.264" transform="translate(60.953 48.597)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

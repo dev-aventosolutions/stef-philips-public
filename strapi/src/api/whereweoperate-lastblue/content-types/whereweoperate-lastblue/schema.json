@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whereweoperate_lastblues",
+  "info": {
+    "singularName": "whereweoperate-lastblue",
+    "pluralName": "whereweoperate-lastblues",
+    "displayName": "Whereweoperate-lastblue",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "whereweoperate": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::whereweoperate.whereweoperate",
+      "inversedBy": "whereweoperate_lastblues"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

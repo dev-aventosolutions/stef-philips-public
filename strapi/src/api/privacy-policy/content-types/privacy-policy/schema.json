@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "privacy_policies",
+  "info": {
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policies",
+    "displayName": "PrivacyPolicy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "privacy_policy_arrs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::privacy-policy-arr.privacy-policy-arr",
+      "mappedBy": "privacy_policy"
+    }
+  }
+}

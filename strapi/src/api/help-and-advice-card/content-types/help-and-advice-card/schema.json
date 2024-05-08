@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "help_and_advice_cards",
+  "info": {
+    "singularName": "help-and-advice-card",
+    "pluralName": "help-and-advice-cards",
+    "displayName": "HelpAndAdvice-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "help_and_advice": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::help-and-advice.help-and-advice",
+      "inversedBy": "help_and_advice_cards"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    }
+  }
+}

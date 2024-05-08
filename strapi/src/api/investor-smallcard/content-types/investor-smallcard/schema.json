@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investor_smallcards",
+  "info": {
+    "singularName": "investor-smallcard",
+    "pluralName": "investor-smallcards",
+    "displayName": "Investor-smallcard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "investor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::investor.investor",
+      "inversedBy": "investor_smallcards"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corporate_investor_cards",
+  "info": {
+    "singularName": "corporate-investor-card",
+    "pluralName": "corporate-investor-cards",
+    "displayName": "CorporateInvestor-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "corporate_investor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::corporate-investor.corporate-investor",
+      "inversedBy": "corporate_investor_cards"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

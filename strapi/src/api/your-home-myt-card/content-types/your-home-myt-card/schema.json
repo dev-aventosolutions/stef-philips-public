@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "your_home_myt_cards",
+  "info": {
+    "singularName": "your-home-myt-card",
+    "pluralName": "your-home-myt-cards",
+    "displayName": "YourHomeMYT-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "your_home_myt": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::your-home-myt.your-home-myt",
+      "inversedBy": "your_home_myt_cards"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    }
+  }
+}

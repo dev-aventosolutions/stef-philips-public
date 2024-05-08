@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468" height="273" viewBox="0 0 468 273">
+  <g id="Media" transform="translate(0.432)">
+    <rect id="Background" width="468" height="273" transform="translate(-0.432)" fill="#20407c"/>
+    <g id="Play" transform="translate(193.568 97)" fill="rgba(29,29,51,0.5)" stroke="rgba(255,255,255,0.5)" stroke-width="3">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="41.5" fill="none"/>
+    </g>
+    <path id="Play-2" data-name="Play" d="M11.5,0,23,20H0Z" transform="translate(247.068 125.5) rotate(90)" fill="#fff"/>
+  </g>
+</svg>

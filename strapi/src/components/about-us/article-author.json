@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_us_article_authors",
+  "info": {
+    "displayName": "article_author",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.social-icons"
+    }
+  }
+}

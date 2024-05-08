@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hp_accommodation_type_cards",
+  "info": {
+    "singularName": "hp-accommodation-type-card",
+    "pluralName": "hp-accommodation-type-cards",
+    "displayName": "HPAccommodationType-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hp_accommodation_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::hp-accommodation-type.hp-accommodation-type",
+      "inversedBy": "hp_accommodation_type_cards"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_meet_team_opts",
+  "info": {
+    "singularName": "about-us-meet-team-opt",
+    "pluralName": "about-us-meet-team-opts",
+    "displayName": "AboutUsMeetTeamOpt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "team": {
+      "displayName": "AboutUsMeetTeamTeamOpt",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.about-us-meet-team-team-opt"
+    },
+    "our_senior_team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.about-us-meet-team-team-opt"
+    },
+    "ceo_card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.team-message"
+    },
+    "community_card": {
+      "displayName": "community_card",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.community-card"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

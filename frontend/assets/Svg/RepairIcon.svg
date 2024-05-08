@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <g id="Icon_Button" data-name="Icon Button" transform="translate(-510 -1587)">
+    <g id="Icon" transform="translate(510 1587)" fill="#fff" stroke="rgba(34,66,122,0.8)" stroke-width="2">
+      <circle cx="45.5" cy="45.5" r="45.5" stroke="none"/>
+      <circle cx="45.5" cy="45.5" r="44.5" fill="none"/>
+    </g>
+    <g id="S_P_Icons_2023_AS_Repairs_and_Maintenance" data-name="S&amp;P Icons 2023_AS_Repairs and Maintenance" transform="translate(513.404 1590.905)">
+      <path id="Path_152" data-name="Path 152" d="M25.662,25.91,24.64,26.932,27.7,32.759l3.422.652,11.8,11.8-3.533,3.533" transform="translate(-1.403 -2.303)" fill="none" stroke="#1d1e32" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_153" data-name="Path 153" d="M75.225,74.565h0a4.635,4.635,0,0,1-6.557,0L54.88,60.777l6.557-6.557L75.225,68.008a4.635,4.635,0,0,1,0,6.557h0" transform="translate(-15.625 -15.618)" fill="none" stroke="#1d1e32" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_154" data-name="Path 154" d="M26.57,25l1.022-1.022,5.821,3.056.657,3.422,11.8,11.8,3.528-3.528" transform="translate(-2.31 -1.396)" fill="none" stroke="#1d1e32" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_155" data-name="Path 155" d="M36.9,60.03l-3.655,3.655a8.554,8.554,0,1,0,4.963,4.963l1.4-1.4m-5.487,5.487-2.86,2.86-3.909-1.049L26.3,70.639l2.86-2.86,3.909,1.049Z" transform="translate(0 -18.351)" fill="none" stroke="#1d1e32" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_156" data-name="Path 156" d="M67.9,38.957l1.4-1.4A8.555,8.555,0,0,0,80.336,26.525l-6.949,6.949-3.909-1.049-1.049-3.909,6.949-6.949A8.555,8.555,0,0,0,64.345,32.6L60.69,36.255" transform="translate(-18.358)" fill="none" stroke="#1d1e32" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

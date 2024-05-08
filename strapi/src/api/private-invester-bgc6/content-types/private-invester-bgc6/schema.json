@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "private_invester_bgc6s",
+  "info": {
+    "singularName": "private-invester-bgc6",
+    "pluralName": "private-invester-bgc6s",
+    "displayName": "PrivateInvester-bgc6",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "private_invester": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::private-invester.private-invester",
+      "inversedBy": "private_invester_bgc_6s"
+    }
+  }
+}

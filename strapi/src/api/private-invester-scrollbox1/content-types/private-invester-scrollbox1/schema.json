@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "private_invester_scrollbox1s",
+  "info": {
+    "singularName": "private-invester-scrollbox1",
+    "pluralName": "private-invester-scrollbox1s",
+    "displayName": "PrivateInvester-scrollbox1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "private_invester": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::private-invester.private-invester",
+      "inversedBy": "private_invester_scrollbox_1s"
+    }
+  }
+}

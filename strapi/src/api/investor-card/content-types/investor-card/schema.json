@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investor_cards",
+  "info": {
+    "singularName": "investor-card",
+    "pluralName": "investor-cards",
+    "displayName": "Investor-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "investor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::investor.investor",
+      "inversedBy": "investor_cards"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

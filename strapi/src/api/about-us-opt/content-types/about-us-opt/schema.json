@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_opts",
+  "info": {
+    "singularName": "about-us-opt",
+    "pluralName": "about-us-opts",
+    "displayName": "AboutUsOpt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "videoUrl": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.header"
+    },
+    "featured": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.featured"
+    },
+    "value_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.icon-card"
+    },
+    "featured_with_icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.icon-card"
+    },
+    "our_senior_team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.about-us-meet-team-team-opt"
+    },
+    "ceo_message": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.team-message"
+    },
+    "accredation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.accredation"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "your_home_tem_acc_card1s",
+  "info": {
+    "singularName": "your-home-tem-acc-card1",
+    "pluralName": "your-home-tem-acc-card1s",
+    "displayName": "YourHomeTemAcc-card1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "your_home_tem_acc": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::your-home-tem-acc.your-home-tem-acc",
+      "inversedBy": "your_home_tem_acc_card_1s"
+    },
+    "btn1Title": {
+      "type": "string"
+    },
+    "btn2Title": {
+      "type": "string"
+    },
+    "btn1Url": {
+      "type": "string"
+    },
+    "btn2Url": {
+      "type": "string"
+    },
+    "btn1Color": {
+      "type": "string"
+    },
+    "btn2Color": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_news",
+  "info": {
+    "singularName": "about-us-new",
+    "pluralName": "about-us-news",
+    "displayName": "News-and-views",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "all_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::about-us-new-tag.about-us-new-tag",
+      "mappedBy": "tags_for_news_views"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "featured_article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::about-us-new-article.about-us-new-article"
+    },
+    "suggested_searches": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.simple-text"
+    }
+  }
+}

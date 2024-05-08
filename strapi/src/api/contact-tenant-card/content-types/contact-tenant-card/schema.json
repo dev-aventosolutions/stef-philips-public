@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_tenant_cards",
+  "info": {
+    "singularName": "contact-tenant-card",
+    "pluralName": "contact-tenant-cards",
+    "displayName": "ContactTenant-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "contact_tenant": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::contact-tenant.contact-tenant",
+      "inversedBy": "contact_tenant_cards"
+    }
+  }
+}

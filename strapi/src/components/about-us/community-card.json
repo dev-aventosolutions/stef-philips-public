@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_about_us_community_cards",
+  "info": {
+    "displayName": "community_card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btn_Url": {
+      "type": "string"
+    },
+    "btn_Title": {
+      "type": "string"
+    },
+    "btn_Color": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "housing_partner_cardbottoms",
+  "info": {
+    "singularName": "housing-partner-cardbottom",
+    "pluralName": "housing-partner-cardbottoms",
+    "displayName": "HousingPartner-cardbottom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "housing_partner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::housing-partner.housing-partner",
+      "inversedBy": "housing_partner_cardbottoms"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "housing_partner_pr_blanckcards",
+  "info": {
+    "singularName": "housing-partner-pr-blanckcard",
+    "pluralName": "housing-partner-pr-blanckcards",
+    "displayName": "HousingPartnerPR-blanckcard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "housing_partner_pr": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::housing-partner-pr.housing-partner-pr",
+      "inversedBy": "housing_partner_pr_blanckcards"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

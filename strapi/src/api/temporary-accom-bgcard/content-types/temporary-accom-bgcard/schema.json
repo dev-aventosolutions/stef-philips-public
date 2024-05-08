@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temporary_accom_bgcards",
+  "info": {
+    "singularName": "temporary-accom-bgcard",
+    "pluralName": "temporary-accom-bgcards",
+    "displayName": "TemporaryAccom-bgcard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "temporary_accom": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::temporary-accom.temporary-accom",
+      "inversedBy": "temporary_accom_bgcards"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

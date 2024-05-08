@@ -1,0 +1,114 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investors",
+  "info": {
+    "singularName": "investor",
+    "pluralName": "investors",
+    "displayName": "Investor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_c1": {
+      "type": "string"
+    },
+    "desc_c1": {
+      "type": "string"
+    },
+    "image_c1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline_c1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "investment_desc": {
+      "type": "text"
+    },
+    "sourcing_desc": {
+      "type": "text"
+    },
+    "investor_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-card.investor-card",
+      "mappedBy": "investor"
+    },
+    "investor_smallcards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-smallcard.investor-smallcard",
+      "mappedBy": "investor"
+    },
+    "investor_bg_c_3": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::investor-bg-c3.investor-bg-c3",
+      "mappedBy": "investor"
+    },
+    "investor_icons_c_3s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-icons-c3.investor-icons-c3",
+      "mappedBy": "investor"
+    },
+    "investor_scrollbox_1s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-scrollbox1.investor-scrollbox1",
+      "mappedBy": "investor"
+    },
+    "investor_scrollbox_2s": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-scrollbox2.investor-scrollbox2",
+      "mappedBy": "investor"
+    },
+    "investor_calls": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-call.investor-call",
+      "mappedBy": "investor"
+    },
+    "investor_partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-partner.investor-partner",
+      "mappedBy": "investor"
+    },
+    "investor_faqs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::investor-faq.investor-faq",
+      "mappedBy": "investor"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "featured_investor_article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::about-us-new-article.about-us-new-article"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "c_housing_partners",
+  "info": {
+    "singularName": "c-housing-partner",
+    "pluralName": "c-housing-partners",
+    "displayName": "CHousingPartner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "c_housing_partner_calls": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::c-housing-partner-call.c-housing-partner-call",
+      "mappedBy": "c_housing_partner"
+    },
+    "c_housing_partner_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::c-housing-partner-report.c-housing-partner-report",
+      "mappedBy": "c_housing_partner"
+    }
+  }
+}

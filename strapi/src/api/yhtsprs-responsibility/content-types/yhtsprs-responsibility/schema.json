@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "yhtsprs_responsibilities",
+  "info": {
+    "singularName": "yhtsprs-responsibility",
+    "pluralName": "yhtsprs-responsibilities",
+    "displayName": "YHTSPRS-responsibility",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "yh_tenant_services_pr": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::yh-tenant-services-pr.yh-tenant-services-pr",
+      "inversedBy": "yhtsprs_responsibilities"
+    }
+  }
+}

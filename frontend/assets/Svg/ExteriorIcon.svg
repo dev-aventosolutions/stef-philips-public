@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <g id="Icon_Button" data-name="Icon Button" transform="translate(-510 -1587)">
+    <g id="Icon" transform="translate(510 1587)" fill="#fff" stroke="rgba(34,66,122,0.8)" stroke-width="2">
+      <circle cx="45.5" cy="45.5" r="45.5" stroke="none"/>
+      <circle cx="45.5" cy="45.5" r="44.5" fill="none"/>
+    </g>
+    <g id="S_P_Icons_2023_AS_Exterior_and_garden" data-name="S&amp;P Icons 2023_AS_Exterior and garden" transform="translate(511.759 1588.558)">
+      <line id="Line_59" data-name="Line 59" y2="6.267" transform="translate(57.624 57.177)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_121" data-name="Path 121" d="M41.66,63.444v-39H66.733v20.2" transform="translate(-9.108 0)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_51" data-name="Rectangle 51" width="8.358" height="8.358" transform="translate(40.909 55.086)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_122" data-name="Path 122" d="M49.26,52.544V49.76h2.784" transform="translate(-12.527 -11.389)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_123" data-name="Path 123" d="M61.92,52.544V49.76H64.7" transform="translate(-18.221 -11.389)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_124" data-name="Path 124" d="M74.57,52.544V49.76h2.79" transform="translate(-23.911 -11.389)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_125" data-name="Path 125" d="M49.26,67.734V64.95h2.784" transform="translate(-12.527 -18.221)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_126" data-name="Path 126" d="M61.92,67.734V64.95H64.7" transform="translate(-18.221 -18.221)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_127" data-name="Path 127" d="M74.57,67.734V64.95h2.79" transform="translate(-23.911 -18.221)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_128" data-name="Path 128" d="M49.26,37.354V34.57h2.784" transform="translate(-12.527 -4.556)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_129" data-name="Path 129" d="M61.92,37.354V34.57H64.7" transform="translate(-18.221 -4.556)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_130" data-name="Path 130" d="M74.57,37.354V34.57h2.79" transform="translate(-23.911 -4.556)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_60" data-name="Line 60" x2="43.18" transform="translate(21.41 63.444)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_131" data-name="Path 131" d="M93.062,69.122a4.176,4.176,0,1,1-4.176-4.182,4.177,4.177,0,0,1,4.176,4.182Z" transform="translate(-28.472 -18.217)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_132" data-name="Path 132" d="M92.29,85.457V74.778l1.4-1.4" transform="translate(-31.882 -22.013)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_133" data-name="Path 133" d="M29.772,69.122A4.176,4.176,0,1,1,25.6,64.94a4.177,4.177,0,0,1,4.176,4.182Z" transform="translate(-0.004 -18.217)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_134" data-name="Path 134" d="M29,85.457V74.778l1.4-1.4" transform="translate(-3.414 -22.013)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

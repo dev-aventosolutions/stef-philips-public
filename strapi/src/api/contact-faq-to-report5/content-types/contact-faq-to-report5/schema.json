@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_faq_to_report5s",
+  "info": {
+    "singularName": "contact-faq-to-report5",
+    "pluralName": "contact-faq-to-report5s",
+    "displayName": "ContactFAQ-to-report5",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "contact_faq_allreport": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::contact-faq-allreport.contact-faq-allreport",
+      "inversedBy": "contact_faq_to_report_5s"
+    }
+  }
+}

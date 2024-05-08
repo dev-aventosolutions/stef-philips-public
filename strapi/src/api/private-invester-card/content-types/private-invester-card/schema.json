@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "private_invester_cards",
+  "info": {
+    "singularName": "private-invester-card",
+    "pluralName": "private-invester-cards",
+    "displayName": "PrivateInvester-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "private_invester": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::private-invester.private-invester",
+      "inversedBy": "private_invester_cards"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whereweoperate_cards",
+  "info": {
+    "singularName": "whereweoperate-card",
+    "pluralName": "whereweoperate-cards",
+    "displayName": "Whereweoperate-card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageoutline": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    },
+    "whereweoperate": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::whereweoperate.whereweoperate",
+      "inversedBy": "whereweoperate_cards"
+    }
+  }
+}

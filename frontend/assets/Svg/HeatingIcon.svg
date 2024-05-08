@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <g id="Icon_Button" data-name="Icon Button" transform="translate(-510 -1587)">
+    <g id="Icon" transform="translate(510 1587)" fill="#fff" stroke="rgba(34,66,122,0.8)" stroke-width="2">
+      <circle cx="45.5" cy="45.5" r="45.5" stroke="none"/>
+      <circle cx="45.5" cy="45.5" r="44.5" fill="none"/>
+    </g>
+    <g id="S_P_Icons_2023_AS_Heating_and_boiler" data-name="S&amp;P Icons 2023_AS_Heating and boiler" transform="translate(510.049 1587.101)">
+      <path id="Path_106" data-name="Path 106" d="M41.935,41.6V69.223a3.067,3.067,0,0,1-3.067,3.067h0A3.067,3.067,0,0,1,35.8,69.223V41.6a3.067,3.067,0,0,1,3.067-3.067h0" transform="translate(-5.457 -6.945)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_107" data-name="Path 107" d="M52.045,71.2a3.067,3.067,0,0,1-3.067,3.067h0A3.067,3.067,0,0,1,45.91,71.2V43.57" transform="translate(-9.426 -8.923)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_108" data-name="Path 108" d="M62.145,52.89V74.86a3.067,3.067,0,0,1-3.067,3.067h0A3.067,3.067,0,0,1,56.01,74.86V52.89" transform="translate(-13.391 -12.582)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_109" data-name="Path 109" d="M72.255,43.58V71.205a3.067,3.067,0,0,1-3.067,3.067h0a3.067,3.067,0,0,1-3.067-3.067" transform="translate(-17.36 -8.927)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_110" data-name="Path 110" d="M79.287,38.52h0a3.067,3.067,0,0,1,3.067,3.067V69.213a3.067,3.067,0,0,1-3.067,3.067h0a3.067,3.067,0,0,1-3.067-3.067V41.587" transform="translate(-21.325 -6.941)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_49" data-name="Rectangle 49" width="3.839" height="4.604" transform="translate(26.504 56.137)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_43" data-name="Line 43" x2="4.604" transform="translate(21.9 58.439)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_50" data-name="Rectangle 50" width="3.839" height="4.604" transform="translate(64.875 39.251) rotate(180)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_44" data-name="Line 44" x1="4.604" transform="translate(64.868 36.955)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Ellipse_21" data-name="Ellipse 21" cx="9.974" cy="9.974" r="9.974" transform="translate(35.713 20.84)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_111" data-name="Path 111" d="M62.343,35.947a3.626,3.626,0,1,1-7.253,0,4.485,4.485,0,0,1,.723-2.175s1.027,1.543,2.175,1.452c0,0-2.66-5.777.723-8.7a8.1,8.1,0,0,0,2.175,5.807,4.337,4.337,0,0,1,1.452,3.626" transform="translate(-13.03 -2.23)" fill="none" stroke="#1d1d33" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

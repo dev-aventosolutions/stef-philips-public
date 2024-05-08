@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_new_tags",
+  "info": {
+    "singularName": "about-us-new-tag",
+    "pluralName": "about-us-new-tags",
+    "displayName": "News-article-tags",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "tags_for_news_views": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::about-us-new.about-us-new",
+      "inversedBy": "all_tags"
+    }
+  }
+}

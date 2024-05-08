@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investor_scrollbox2s",
+  "info": {
+    "singularName": "investor-scrollbox2",
+    "pluralName": "investor-scrollbox2s",
+    "displayName": "Investor-scrollbox2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "investor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::investor.investor",
+      "inversedBy": "investor_scrollbox_2s"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    }
+  }
+}

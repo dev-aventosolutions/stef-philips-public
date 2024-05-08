@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "housing_partner_2crads",
+  "info": {
+    "singularName": "housing-partner-2crad",
+    "pluralName": "housing-partner-2crads",
+    "displayName": "HousingPartner-2crad",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "housing_partner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::housing-partner.housing-partner",
+      "inversedBy": "housing_partner_2_crads"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "download_cards",
+  "info": {
+    "singularName": "download-card",
+    "pluralName": "download-cards",
+    "displayName": "Download-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "string"
+    },
+    "download": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::download.download",
+      "inversedBy": "download_cards"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

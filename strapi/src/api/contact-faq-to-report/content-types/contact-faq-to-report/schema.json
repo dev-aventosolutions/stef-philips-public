@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_faq_to_reports",
+  "info": {
+    "singularName": "contact-faq-to-report",
+    "pluralName": "contact-faq-to-reports",
+    "displayName": "ContactFAQ-to-report",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "contact_faq_allreport": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::contact-faq-allreport.contact-faq-allreport",
+      "inversedBy": "contact_faq_to_reports"
+    }
+  }
+}

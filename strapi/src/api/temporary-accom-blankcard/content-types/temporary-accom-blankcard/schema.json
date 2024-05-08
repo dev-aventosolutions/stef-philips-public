@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temporary_accom_blankcards",
+  "info": {
+    "singularName": "temporary-accom-blankcard",
+    "pluralName": "temporary-accom-blankcards",
+    "displayName": "TemporaryAccom-blankcard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "temporary_accom": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::temporary-accom.temporary-accom",
+      "inversedBy": "temporary_accom_blankcards"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

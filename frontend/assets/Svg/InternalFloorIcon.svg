@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <g id="Icon_Button" data-name="Icon Button" transform="translate(-510 -1587)">
+    <g id="Icon" transform="translate(510 1587)" fill="#fff" stroke="rgba(34,66,122,0.8)" stroke-width="2">
+      <circle cx="45.5" cy="45.5" r="45.5" stroke="none"/>
+      <circle cx="45.5" cy="45.5" r="44.5" fill="none"/>
+    </g>
+    <g id="S_P_Icons_2023_AS_Internal_floors_walls_and_ceilings" data-name="S&amp;P Icons 2023_AS_Internal floors walls and ceilings" transform="translate(508.997 1588.907)">
+      <rect id="Rectangle_47" data-name="Rectangle 47" width="39.725" height="39.725" transform="translate(26.64 24.73)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_48" data-name="Rectangle 48" width="23.177" height="11.456" transform="translate(34.914 38.862)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_32" data-name="Line 32" x1="8.274" y1="14.132" transform="translate(26.64 24.73)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_33" data-name="Line 33" x1="4.137" y1="14.132" transform="translate(36.571 24.73)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_34" data-name="Line 34" y1="14.132" transform="translate(46.502 24.73)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_35" data-name="Line 35" y1="14.132" x2="4.137" transform="translate(52.297 24.73)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_36" data-name="Line 36" y1="14.132" x2="8.268" transform="translate(58.091 24.73)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_37" data-name="Line 37" x2="39.719" transform="translate(26.64 24.73)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_38" data-name="Line 38" x2="31.669" transform="translate(30.42 31.991)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_39" data-name="Line 39" x2="23.177" transform="translate(34.914 38.862)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_40" data-name="Line 40" x1="5.892" y2="10.064" transform="translate(29.022 50.318)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_41" data-name="Line 41" x2="5.898" y2="10.081" transform="translate(58.091 50.318)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_42" data-name="Line 42" x2="23.177" transform="translate(34.914 50.318)" fill="none" stroke="#1d1d33" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

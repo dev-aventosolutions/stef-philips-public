@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="36" viewBox="0 0 40 36">
+  <g id="Burger" transform="translate(-317 -16)">
+    <g id="Box">
+      <rect id="Box-2" data-name="Box" width="40" height="36" transform="translate(317 16)" fill="#2a8cfb"/>
+    </g>
+    <g id="Burger-2" data-name="Burger">
+      <rect id="CTA" width="24" height="2" transform="translate(325 25)" fill="#fff"/>
+      <rect id="CTA-2" data-name="CTA" width="24" height="2" transform="translate(325 33)" fill="#fff"/>
+      <rect id="CTA-3" data-name="CTA" width="24" height="2" transform="translate(325 41)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

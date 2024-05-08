@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investors_landlord_cards",
+  "info": {
+    "singularName": "investors-landlord-card",
+    "pluralName": "investors-landlord-cards",
+    "displayName": "InvestorsLandlord-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "investors_landlord": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::investors-landlord.investors-landlord",
+      "inversedBy": "investors_landlord_cards"
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    }
+  }
+}

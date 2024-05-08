@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <g id="Icon_Button" data-name="Icon Button" transform="translate(-510 -1587)">
+    <g id="Icon" transform="translate(510 1587)" fill="#fff" stroke="rgba(34,66,122,0.8)" stroke-width="2">
+      <circle cx="45.5" cy="45.5" r="45.5" stroke="none"/>
+      <circle cx="45.5" cy="45.5" r="44.5" fill="none"/>
+    </g>
+    <g id="S_P_Icons_2023_AS_Any_other_issues_alt" data-name="S&amp;P Icons 2023_AS_Any other issues alt" transform="translate(509.413 1587.668)">
+      <path id="Path_146" data-name="Path 146" d="M44.929,22.1A22.143,22.143,0,0,1,67.174,44.133,21.782,21.782,0,0,1,63.248,56.62l1.2,10.655-9.988-3.252A22.081,22.081,0,1,1,44.929,22.1Z" fill="none" stroke="#1d1e32" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="20.176" height="27.7" transform="translate(34.838 30.631)" fill="none" stroke="#1d1e32" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_70" data-name="Line 70" x2="13.847" transform="translate(38.09 49.624)" fill="none" stroke="#1d1e32" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_71" data-name="Line 71" x2="13.847" transform="translate(38.09 53.738)" fill="none" stroke="#1d1e32" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_147" data-name="Path 147" d="M59.157,54.117a1.414,1.414,0,0,1,0-2.828,1.415,1.415,0,0,1,.018,2.828Zm-.85-3.974L57.98,41.69h2.36l-.328,8.453Z" transform="translate(-13.798 -7.703)" fill="#1d1d33"/>
+    </g>
+  </g>
+</svg>

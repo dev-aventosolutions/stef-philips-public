@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corporate_investor_brochures",
+  "info": {
+    "singularName": "corporate-investor-brochure",
+    "pluralName": "corporate-investor-brochures",
+    "displayName": "CorporateInvestor-brochure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "url": {
+      "type": "string"
+    },
+    "corporate_investor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::corporate-investor.corporate-investor",
+      "inversedBy": "corporate_investor_brochures"
+    }
+  }
+}

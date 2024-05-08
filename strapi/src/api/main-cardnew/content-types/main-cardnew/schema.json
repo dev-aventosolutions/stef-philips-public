@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_cardnews",
+  "info": {
+    "singularName": "main-cardnew",
+    "pluralName": "main-cardnews",
+    "displayName": "YHTSPRS-cardnew",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnTitle": {
+      "type": "string"
+    },
+    "btnUrl": {
+      "type": "string"
+    },
+    "btnColor": {
+      "type": "string"
+    },
+    "yh_tenant_services_pr": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::yh-tenant-services-pr.yh-tenant-services-pr",
+      "inversedBy": "yhtsprs_cardnews"
+    }
+  }
+}

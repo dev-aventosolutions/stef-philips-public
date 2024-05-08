@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_generals",
+  "info": {
+    "singularName": "contact-general",
+    "pluralName": "contact-generals",
+    "displayName": "ContactGeneral",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "contact_general_to_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contact-general-to-report.contact-general-to-report",
+      "mappedBy": "contact_general"
+    }
+  }
+}

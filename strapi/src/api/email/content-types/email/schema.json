@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emails",
+  "info": {
+    "singularName": "email",
+    "pluralName": "emails",
+    "displayName": "Email",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "from": {
+      "type": "email",
+      "required": false,
+      "default": "safee.saqib1122@gmail.com"
+    },
+    "to": {
+      "type": "email",
+      "required": true
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    },
+    "html": {
+      "type": "text",
+      "required": false,
+      "default": "missing text..."
+    },
+    "status": {
+      "type": "string",
+      "required": true,
+      "default": "failed"
+    },
+    "attachment": {
+      "type": "string"
+    }
+  }
+}

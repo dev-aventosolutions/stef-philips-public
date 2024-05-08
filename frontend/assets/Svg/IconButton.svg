@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <g id="Icon_Button" data-name="Icon Button" transform="translate(-510 -1587)">
+    <g id="Icon" transform="translate(510 1587)" fill="#fff" stroke="rgba(34,66,122,0.8)" stroke-width="2">
+      <circle cx="45.5" cy="45.5" r="45.5" stroke="none"/>
+      <circle cx="45.5" cy="45.5" r="44.5" fill="none"/>
+    </g>
+    <path id="Shape_A" data-name="Shape A" d="M18.345,0,0,11.247V40.875H36.69V11.247Z" transform="translate(537.155 1609.918)" fill="#1d1d33"/>
+  </g>
+</svg>

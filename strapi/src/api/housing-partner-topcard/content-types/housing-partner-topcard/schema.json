@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "housing_partner_topcards",
+  "info": {
+    "singularName": "housing-partner-topcard",
+    "pluralName": "housing-partner-topcards",
+    "displayName": "HousingPartner-topcard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageoutline": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "housing_partner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::housing-partner.housing-partner",
+      "inversedBy": "housing_partner_topcards"
+    },
+    "btn1Title": {
+      "type": "string"
+    },
+    "btn1Url": {
+      "type": "string"
+    },
+    "btn1Color": {
+      "type": "string"
+    },
+    "btn2Url": {
+      "type": "string"
+    },
+    "btn2Title": {
+      "type": "string"
+    },
+    "btn2Color": {
+      "type": "string"
+    }
+  }
+}
